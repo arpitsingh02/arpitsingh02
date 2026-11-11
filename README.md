@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,100:1F6FEB&height=190&section=header&text=Arpit%20Singh&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=Product%20%C2%B7%20Strategy%20%C2%B7%20Fintech%20and%20AI&descSize=17&descAlignY=58" width="100%" alt="Arpit Singh" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040A16,100:0D2B5E&height=190&section=header&text=Arpit%20Singh&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=Product%20%C2%B7%20Strategy%20%C2%B7%20Technology&descSize=17&descAlignY=58" width="100%" alt="Arpit Singh" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1400&color=58A6FF&center=true&vCenter=true&width=620&lines=Engineer+by+training.;Consultant+and+investor+by+experience.;Builder+by+choice." alt="Engineer by training. Consultant and investor by experience. Builder by choice." />
+**Engineer by training. Consultant and investor by experience. Builder by choice.**
 
 MBA, The Wharton School '28 &nbsp;|&nbsp; B.Tech Computer Science, IIT Bombay &nbsp;|&nbsp; Ex-Bain &amp; Company
 
@@ -14,22 +14,18 @@ MBA, The Wharton School '28 &nbsp;|&nbsp; B.Tech Computer Science, IIT Bombay &n
 
 ## The path so far
 
-```mermaid
-flowchart LR
-    A["<b>IIT Bombay</b><br/>Computer Science"] --> B["<b>Bain & Company</b><br/>Strategy Consulting"]
-    B --> C["<b>Venture Capital</b><br/>Early-stage Fintech and AI"]
-    C --> D["<b>Wharton</b><br/>MBA '28"]
-    D --> E["<b>Next</b><br/>Product and Strategy"]
+<table>
+<tr>
+<td align="center" width="25%"><b>IIT Bombay</b><br/><sub>Computer Science</sub></td>
+<td align="center" width="25%"><b>Bain &amp; Company</b><br/><sub>Consulting</sub></td>
+<td align="center" width="25%"><b>Accion Ventures</b><br/><sub>Venture Capital</sub></td>
+<td align="center" width="25%"><b>Wharton</b><br/><sub>MBA '28</sub></td>
+</tr>
+</table>
 
-    classDef step fill:#0B1F3A,stroke:#1F6FEB,stroke-width:2px,color:#FFFFFF
-    classDef next fill:#1F6FEB,stroke:#58A6FF,stroke-width:2px,color:#FFFFFF
-    class A,B,C,D step
-    class E next
-```
+I studied computer science at **IIT Bombay**, worked in strategy consulting at **Bain & Company**, and then joined **Accion Ventures**, where I evaluated early-stage startups and supported portfolio founders. I am now an MBA candidate at **The Wharton School**.
 
-I learned to build at **IIT Bombay**, learned to solve business problems at **Bain**, and learned to spot what is worth building while evaluating and supporting founders at an **early-stage fintech and AI fund**.
-
-Good technology without a real problem goes nowhere. A real problem without strong execution stays unsolved. I work where the two meet, and I am looking for roles at the intersection of **product and strategy**.
+Along the way I have seen problems from three sides: building the product, advising the business, and backing the company. I want to bring those together in roles at the intersection of **product and strategy**.
 
 ---
 
@@ -103,4 +99,4 @@ As part of the Undergraduate Academic Council (UGAC), I built and maintained stu
 | **TA Portal** | Matches professors with teaching assistants for their courses |
 | **Homepage Generator** | Lets anyone generate a personal website without writing code |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,100:1F6FEB&height=110&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040A16,100:0D2B5E&height=110&section=footer" width="100%" alt="" />
