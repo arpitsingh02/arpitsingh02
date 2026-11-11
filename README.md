@@ -6,7 +6,7 @@
 
 MBA, The Wharton School '28 &nbsp;|&nbsp; B.Tech Computer Science, IIT Bombay &nbsp;|&nbsp; Ex-Bain &amp; Company
 
-<a href="https://www.linkedin.com/in/arpit-singh-246412179"><img src="assets/linkedin-button.svg" height="48" alt="Connect on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/arpit-singh-246412179"><img src="assets/linkedin-button.svg" height="44" alt="Connect on LinkedIn" /></a>
 
 </div>
 
