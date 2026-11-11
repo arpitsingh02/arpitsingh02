@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040A16,100:0D2B5E&height=190&section=header&text=Arpit%20Singh&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=Product%20%C2%B7%20Strategy%20%C2%B7%20Technology&descSize=17&descAlignY=58" width="100%" alt="Arpit Singh" />
+<img src="assets/header.svg" width="100%" alt="Arpit Singh. Product, Strategy, Technology" />
 
 <div align="center">
 
@@ -14,14 +14,7 @@ MBA, The Wharton School '28 &nbsp;|&nbsp; B.Tech Computer Science, IIT Bombay &n
 
 ## The path so far
 
-<table>
-<tr>
-<td align="center" width="25%"><b>IIT Bombay</b><br/><sub>Computer Science</sub></td>
-<td align="center" width="25%"><b>Bain &amp; Company</b><br/><sub>Consulting</sub></td>
-<td align="center" width="25%"><b>Accion Ventures</b><br/><sub>Venture Capital</sub></td>
-<td align="center" width="25%"><b>Wharton</b><br/><sub>MBA '28</sub></td>
-</tr>
-</table>
+<img src="assets/career-snake.svg" width="100%" alt="Career path: IIT Bombay (Computer Science), Bain &amp; Company (Consulting), Accion Ventures (Venture Capital), The Wharton School (MBA '28), and next: Product + Strategy" />
 
 I studied computer science at **IIT Bombay**, worked in strategy consulting at **Bain & Company**, and then joined **Accion Ventures**, where I evaluated early-stage startups and supported portfolio founders. I am now an MBA candidate at **The Wharton School**.
 
@@ -99,4 +92,4 @@ As part of the Undergraduate Academic Council (UGAC), I built and maintained stu
 | **TA Portal** | Matches professors with teaching assistants for their courses |
 | **Homepage Generator** | Lets anyone generate a personal website without writing code |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040A16,100:0D2B5E&height=110&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" alt="" />

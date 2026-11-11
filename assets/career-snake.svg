@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Career path: IIT Bombay, Bain and Company, Accion Ventures, Wharton, and next: Product and Strategy">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#001845"/>
+      <stop offset="1" stop-color="#0A2E6E"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#7FB2FF"/>
+    </linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; }
+      .t { fill: #FFFFFF; font-size: 17px; font-weight: 700; }
+      .s { fill: #A9C1EC; font-size: 13px; }
+      .n { fill: #7FB2FF; }
+    </style>
+  </defs>
+
+  <rect width="900" height="300" rx="18" fill="url(#bg)"/>
+
+  <!-- The body: S-curves with flat tangents at each milestone, so every stop
+       sits on a crest or trough and the labels alternate above / below. -->
+  <path id="snake" pathLength="1000"
+        d="M 30 100 H 90 C 180 100 180 200 270 200 C 360 200 360 100 450 100 C 540 100 540 200 630 200 C 720 200 720 100 810 100 H 840"
+        fill="none" stroke="url(#body)" stroke-width="16" stroke-linecap="round"
+        stroke-dasharray="1000" stroke-dashoffset="1000">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="2.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+  </path>
+  <!-- Scales: a fine dotted line riding on top of the body. -->
+  <path pathLength="1000"
+        d="M 30 100 H 90 C 180 100 180 200 270 200 C 360 200 360 100 450 100 C 540 100 540 200 630 200 C 720 200 720 100 810 100 H 840"
+        fill="none" stroke="#001845" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"
+        stroke-dasharray="1 7" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.5s" fill="freeze"/>
+  </path>
+
+  <!-- Head, arriving as the body finishes drawing. -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.5s" fill="freeze"/>
+    <path d="M 896 100 h 9 l 6 -5 M 905 100 l 6 5" stroke="#FF6B81" stroke-width="2.2" stroke-linecap="round" fill="none" transform="translate(-30 0)">
+      <animateTransform attributeName="transform" type="translate" values="-30 0;-30 0;-24 0;-30 0" keyTimes="0;0.7;0.85;1" dur="2.2s" begin="3s" repeatCount="indefinite"/>
+    </path>
+    <ellipse cx="850" cy="100" rx="19" ry="14" fill="#7FB2FF"/>
+    <circle cx="856" cy="93" r="3.4" fill="#FFFFFF"/>
+    <circle cx="856" cy="107" r="3.4" fill="#FFFFFF"/>
+    <circle cx="857.5" cy="93" r="1.7" fill="#001845"/>
+    <circle cx="857.5" cy="107" r="1.7" fill="#001845"/>
+  </g>
+
+  <!-- A pulse that keeps travelling along the body once it is drawn. -->
+  <circle r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+    <set attributeName="opacity" to="0.95" begin="2.9s"/>
+    <animateMotion dur="4.5s" begin="2.9s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0.93" keyTimes="0;1" keySplines="0.45 0 0.55 1">
+      <mpath href="#snake" xlink:href="#snake"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Milestones. Each pops in as the body reaches it. -->
+  <g>
+    <circle cx="90" cy="100" r="0" fill="#FFFFFF" stroke="#001845" stroke-width="3">
+      <animate attributeName="r" values="0;12;9" keyTimes="0;0.6;1" dur="0.4s" begin="0.3s" fill="freeze"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze"/>
+      <text class="t" x="90" y="56">IIT Bombay</text>
+      <text class="s" x="90" y="75">Computer Science</text>
+    </g>
+
+    <circle cx="270" cy="200" r="0" fill="#FFFFFF" stroke="#001845" stroke-width="3">
+      <animate attributeName="r" values="0;12;9" keyTimes="0;0.6;1" dur="0.4s" begin="0.85s" fill="freeze"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
+      <text class="t" x="270" y="240">Bain &amp; Company</text>
+      <text class="s" x="270" y="259">Consulting</text>
+    </g>
+
+    <circle cx="450" cy="100" r="0" fill="#FFFFFF" stroke="#001845" stroke-width="3">
+      <animate attributeName="r" values="0;12;9" keyTimes="0;0.6;1" dur="0.4s" begin="1.35s" fill="freeze"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.45s" fill="freeze"/>
+      <text class="t" x="450" y="56">Accion Ventures</text>
+      <text class="s" x="450" y="75">Venture Capital</text>
+    </g>
+
+    <circle cx="630" cy="200" r="0" fill="#FFFFFF" stroke="#001845" stroke-width="3">
+      <animate attributeName="r" values="0;12;9" keyTimes="0;0.6;1" dur="0.4s" begin="1.85s" fill="freeze"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.95s" fill="freeze"/>
+      <text class="t" x="630" y="240">The Wharton School</text>
+      <text class="s" x="630" y="259">MBA '28</text>
+    </g>
+
+    <!-- What's next: hollow, with a ring that keeps breathing. -->
+    <circle cx="810" cy="100" r="9" fill="none" stroke="#7FB2FF" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="9;24" dur="1.8s" begin="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="1.8s" begin="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810" cy="100" r="0" fill="#001845" stroke="#7FB2FF" stroke-width="3">
+      <animate attributeName="r" values="0;12;9" keyTimes="0;0.6;1" dur="0.4s" begin="2.3s" fill="freeze"/>
+    </circle>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze"/>
+      <text class="t n" x="800" y="56">What's next</text>
+      <text class="s" x="800" y="75">Product + Strategy</text>
+    </g>
+  </g>
+</svg>
