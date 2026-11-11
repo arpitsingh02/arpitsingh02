@@ -6,7 +6,7 @@
 
 MBA, The Wharton School '28 &nbsp;|&nbsp; B.Tech Computer Science, IIT Bombay &nbsp;|&nbsp; Ex-Bain &amp; Company
 
-<a href="https://www.linkedin.com/in/arpit-singh-246412179"><img src="assets/linkedin-button.svg" height="44" alt="Connect on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/arpit-singh-246412179"><img src="assets/linkedin.svg" height="44" alt="Connect on LinkedIn" /></a>
 
 </div>
 
@@ -77,7 +77,7 @@ An internal e-commerce platform built for the IIT Bombay community.
 
 As part of the Undergraduate Academic Council (UGAC), I built and maintained student-facing platforms used across campus.
 
-<img src="assets/stats.svg" width="100%" alt="4,000+ students used the UGAC website. 1,000+ monthly active users on Creddit. 200+ students used the TA Portal. 6 campus platforms shipped." />
+<img src="assets/iitb-stats.svg" width="100%" alt="4,000+ students used the UGAC website. 1,000+ monthly active users on Creddit. 200+ students used the TA Portal. 6 campus platforms shipped." />
 
 | Project | Description |
 |:---|:---|
