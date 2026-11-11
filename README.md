@@ -77,19 +77,14 @@ An internal e-commerce platform built for the IIT Bombay community.
 
 As part of the Undergraduate Academic Council (UGAC), I built and maintained student-facing platforms used across campus.
 
-<table>
-<tr>
-<td align="center" width="50%"><h2>1,000+</h2><sub>monthly active users on Creddit</sub></td>
-<td align="center" width="50%"><h2>6</h2><sub>campus platforms shipped, including Wardrobe</sub></td>
-</tr>
-</table>
+<img src="assets/stats.svg" width="100%" alt="4,000+ students used the UGAC website. 1,000+ monthly active users on Creddit. 200+ students used the TA Portal. 6 campus platforms shipped." />
 
 | Project | Description |
 |:---|:---|
-| **UGAC Website** | Official website of the Undergraduate Academic Council, IIT Bombay |
+| **UGAC Website** | Official website of the Undergraduate Academic Council, IIT Bombay, used by **4,000+ students** |
 | **Creddit** | Course review portal for undergraduate courses, with **1,000+ monthly active users** |
 | **Summer Undergraduate Research Portal** | Connects undergraduates with professors offering summer research projects |
-| **TA Portal** | Matches professors with teaching assistants for their courses |
+| **TA Portal** | Matches professors with teaching assistants for their courses, used by **200+ students** |
 | **Homepage Generator** | Lets anyone generate a personal website without writing code |
 
 <img src="assets/footer.svg" width="100%" alt="" />

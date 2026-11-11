@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" role="img" aria-label="4,000+ students used the UGAC website. 1,000+ monthly active users on Creddit. 200+ students used the TA Portal. 6 campus platforms shipped.">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#001845"/>
+      <stop offset="1" stop-color="#0A2E6E"/>
+    </linearGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#8DBBFF"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#7FB2FF"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; }
+      .num { fill: url(#num); font-size: 46px; font-weight: 800; }
+      .lbl { fill: #A9C1EC; font-size: 13.5px; }
+    </style>
+  </defs>
+
+  <!-- Four tiles, 216 wide with 12px gaps. Each tile's number rises in, then
+       its accent bar grows out from the centre, staggered left to right. -->
+
+  <g>
+    <rect x="1" y="1" width="214" height="148" rx="14" fill="url(#card)" stroke="#1E4FA3"/>
+    <g opacity="0" transform="translate(0 14)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+      <text class="num" x="108" y="68">4,000+</text>
+    </g>
+    <rect x="108" y="84" width="0" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="x" from="108" to="88" dur="0.4s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="40" dur="0.4s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text class="lbl" x="108" y="112">students used the</text>
+    <text class="lbl" x="108" y="129">UGAC website</text>
+  </g>
+
+  <g transform="translate(228 0)">
+    <rect x="1" y="1" width="214" height="148" rx="14" fill="url(#card)" stroke="#1E4FA3"/>
+    <g opacity="0" transform="translate(0 14)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.5s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+      <text class="num" x="108" y="68">1,000+</text>
+    </g>
+    <rect x="108" y="84" width="0" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="x" from="108" to="88" dur="0.4s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="40" dur="0.4s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text class="lbl" x="108" y="112">monthly active users</text>
+    <text class="lbl" x="108" y="129">on Creddit</text>
+  </g>
+
+  <g transform="translate(456 0)">
+    <rect x="1" y="1" width="214" height="148" rx="14" fill="url(#card)" stroke="#1E4FA3"/>
+    <g opacity="0" transform="translate(0 14)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.5s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+      <text class="num" x="108" y="68">200+</text>
+    </g>
+    <rect x="108" y="84" width="0" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="x" from="108" to="88" dur="0.4s" begin="1.0s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="40" dur="0.4s" begin="1.0s" fill="freeze"/>
+    </rect>
+    <text class="lbl" x="108" y="112">students used the</text>
+    <text class="lbl" x="108" y="129">TA Portal</text>
+  </g>
+
+  <g transform="translate(684 0)">
+    <rect x="1" y="1" width="214" height="148" rx="14" fill="url(#card)" stroke="#1E4FA3"/>
+    <g opacity="0" transform="translate(0 14)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.8s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.5s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+      <text class="num" x="108" y="68">6</text>
+    </g>
+    <rect x="108" y="84" width="0" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="x" from="108" to="88" dur="0.4s" begin="1.2s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="40" dur="0.4s" begin="1.2s" fill="freeze"/>
+    </rect>
+    <text class="lbl" x="108" y="112">campus platforms</text>
+    <text class="lbl" x="108" y="129">shipped</text>
+  </g>
+</svg>
